@@ -78,7 +78,6 @@ def main():
         print("Make sure Ollama is running: ollama serve")
         return
     
-    # No agent needed for simple chat
     
     print(f"✅ Using {model_name}")
     print("Type 'quit' to exit, 'switch' to change models")
@@ -113,7 +112,7 @@ def main():
                     temperature=0,
                     base_url="http://localhost:11434"
                 )
-                # No agent needed for simple chat
+                
                 print(f"✅ Switched to {model_name}")
                 print("-" * 40)
             except Exception as e:
