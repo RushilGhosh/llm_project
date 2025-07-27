@@ -40,10 +40,12 @@ A Python-based local AI assistant that uses Ollama to run large language models 
 
 4. **Download a model**:
    ```bash
-   ollama pull llama3.2
-   # or
-   ollama pull gemma
+   ollama pull *name of model*
+
+   # For example
+   ollama pull llama3.2:latest
    ```
+   Visit [https://ollama.com/search](https://ollama.com/search) to find which model you would like to locally download.
 
 ## Usage
 
